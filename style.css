@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header-container{
+  width:100% ;
+  background-color: #010108;
+  padding: 20px;
+  text-align: center;
+  background-image: url("https://wallpapercave.com/wp/wp3191315.jpg ") ; 
+  background-size: auto ;
+  background-position-y: right ;
+}
+
+.navigation-bar{
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.logo-icon{
+  width: 300px;
+  float: left;
+  height: 60px;
+  margin-right: 30px;
+  
+}
+
+.logo{
+  color: #03020a;
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 3dvh;
+  text-align: left;
+  padding-top: 40px;
+  margin-top: 10px;
+  font-weight: bolder;
+  
+}
+
+.search-form{
+  width: 220px;
+  height: 40px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #010108;
+  margin-top: 13px;
+  color: #0f0303;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.search-button {
+  width: 100px;
+  height: 40px;
+  background: #03040d;
+  border: 2px solid #05030b;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+ul{
+  life-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+  cursor: pointer
+}
+
+ul li a{
+  text-decoration: none;
+  color: #130404;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+
+.content {
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.paragraph {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1.3px;
+  line-height: 30px;
+}
+.course-box {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-item h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.course-item p {
+  font-size: 16px;
+  color: #101010;
+}
+
+.course-item button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.course-item button:hover {
+  background-color: #3e8e41;
+}
+
+.testimonials {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  margin: 20px;
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #271313;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  font-size: 18px;
+  color: #0d0909;
+  margin-top: 0;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+
+}
+
+.column {
+  float: rightt;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.footer{
+  text-align: center;
+  padding: 2px;
+  background-color: #271313;
+  color: whitesmoke;
+}
